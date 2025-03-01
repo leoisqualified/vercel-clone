@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vercel Clone</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- Left side: Logo and Nav Links -->
+      <div class="navbar-left">
+        <div class="navbar-logo">
+          <a href="#">Vercel Clone</a>
+        </div>
+        <ul class="navbar-links">
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Enterprise</a></li>
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+
+      <!-- Right side: Buttons and Profile Picture -->
+      <div class="navbar-right">
+        <button class="navbar-btn">Log In</button>
+        <button class="navbar-btn">Sign Up</button>
+        <div class="profile-picture">
+          <img src="profile.jpg" alt="Profile Picture" />
+        </div>
+      </div>
+
+      <!-- Mobile Menu Toggle -->
+      <div class="navbar-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <div class="table-container">
+      <table>
+        <!-- First Row: Spanning Two Columns -->
+        <tr>
+          <td colspan="2" class="header-cell">
+            <h1>Your complete platform for the web.</h1>
+            <p class="subtext">
+              Vercel provides the developer tools and cloud infrastructure to
+              <br />
+              build, scale, and secure a faster, more personalized web.
+            </p>
+            <div class="buttons">
+              <button class="start-btn">Start Deploying</button>
+              <button class="demo-btn">Get Demo</button>
+            </div>
+            <img src="vercel.png" alt="Vercel Image" class="vercel-image" />
+          </td>
+        </tr>
+
+        <!-- Remaining Rows: Two Columns -->
+        <tr>
+          <td colspan="2" class="centered-text">
+            <p class="large-text">Develop with your favorite tools >_</p>
+            <p class="medium-text">
+              Launch globally, instantly <i class="fa-solid fa-globe"></i>
+            </p>
+            <p class="small-text">Keep pushing</p>
+          </td>
+        </tr>
+        <!-- Third Row: Two Columns -->
+        <tr>
+          <!-- Left Column -->
+          <td class="feature-cell">
+            <div class="feature-content">
+              <div class="feature-header">
+                <i class="fas fa-code icon"></i>
+                <span class="small-text">Git-connected Deploys</span>
+              </div>
+              <h2>From localhost to https, in seconds.</h2>
+              <p class="feature-description">Deploy from Git or your CLI.</p>
+              <img
+                src="https://via.placeholder.com/300x150"
+                alt="Feature Image"
+                class="feature-image"
+              />
+            </div>
+          </td>
+
+          <!-- Right Column -->
+          <td class="feature-cell">
+            <div class="feature-content">
+              <div class="feature-header">
+                <i class="fas fa-users icon"></i>
+                <span class="small-text">Collaborative pre-production</span>
+              </div>
+              <h2>Every deploy is remarkable.</h2>
+              <p class="feature-description">
+                Chat with your team on real, production-grade UI, not just
+                designs.
+              </p>
+              <img
+                src="https://via.placeholder.com/300x150"
+                alt="Feature Image"
+                class="feature-image"
+              />
+            </div>
+          </td>
+        </tr>
+
+        <!-- Fourth Row: Spanning Two Columns with Background Image -->
+        <tr>
+          <td colspan="2" class="image-row">
+            <div class="image-content">
+              <div class="image-text">
+                <div class="image-header">
+                  <i class="fas fa-chart-line icon"></i>
+                  <span class="small-text">Frontend Observability</span>
+                </div>
+                <h2>Privacy Friendly, Lightweight Analytics</h2>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Fifth Row: Two Columns -->
+        <tr>
+          <!-- Left Column -->
+          <td class="feature-cell">
+            <div class="feature-content">
+              <div class="feature-header">
+                <i class="fas fa-undo icon"></i>
+                <span class="small-text">Instant Rollbacks</span>
+              </div>
+              <h2>Go ahead, deploy on Friday.</h2>
+              <p class="feature-description">
+                Instantly rollback to a working deployment.
+              </p>
+              <img
+                src="https://via.placeholder.com/300x150"
+                alt="Feature Image"
+                class="feature-image"
+              />
+            </div>
+          </td>
+
+          <!-- Right Column -->
+          <td class="feature-cell">
+            <div class="feature-content">
+              <div class="feature-header">
+                <i class="fas fa-check-circle icon"></i>
+                <span class="small-text">Conformance</span>
+              </div>
+              <h2>Move fast, don’t break things.</h2>
+              <p class="feature-description">
+                Keep quality high while maintaining velocity with Enterprise
+                Monorepos.
+              </p>
+              <img
+                src="https://via.placeholder.com/300x150"
+                alt="Feature Image"
+                class="feature-image"
+              />
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- Products Column -->
+        <div class="footer-column">
+          <h3>Products</h3>
+          <ul>
+            <li><a href="#">AI</a></li>
+            <li><a href="#">Enterprise</a></li>
+            <li><a href="#">Fluid Compute</a></li>
+            <li><a href="#">Next.js</a></li>
+            <li><a href="#">Observability</a></li>
+            <li><a href="#">Previews</a></li>
+            <li><a href="#">Rendering</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Turbo</a></li>
+            <li><a href="#">v0</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources Column -->
+        <div class="footer-column">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Integrations</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Solution Partners</a></li>
+            <li><a href="#">Templates</a></li>
+          </ul>
+        </div>
+
+        <!-- Company Column -->
+        <div class="footer-column">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Changelog</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Column -->
+        <div class="footer-column">
+          <h3>Social</h3>
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="fab fa-github"></i> GitHub</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
