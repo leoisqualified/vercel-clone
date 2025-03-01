@@ -31,6 +31,8 @@ body {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
+  margin-bottom: 50px;
+  margin-left: 20px;
 }
 
 .navbar-links {
@@ -126,6 +128,19 @@ body {
   }
 }
 
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between icon and text */
+}
+
+.logo-icon {
+  font-size: 40px; /* Adjust size of the triangle */
+  color: white; /* Match the text color */
+}
+
 .start-btn {
   background-color: #fff;
   padding: 15px;
@@ -133,6 +148,7 @@ body {
   border: none;
   border-radius: 20px;
   color: #000;
+  font-weight: bold;
 }
 
 .demo-btn {
@@ -142,6 +158,7 @@ body {
   border: 1px solid white;
   border-radius: 20px;
   color: #fff;
+  font-weight: bold;
 }
 
 .demo-btn:hover {
@@ -513,4 +530,8 @@ td h1 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.empty-row {
+  height: 20px;
 }
